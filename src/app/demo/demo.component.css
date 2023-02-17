@@ -1,0 +1,15 @@
+:host {
+  position: fixed;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4.8rem;
+  text-align: center;
+}
+p {
+  font-size: 1.6rem;
+}
+h1, p {
+  margin: 3.2rem 4.8rem;
+}

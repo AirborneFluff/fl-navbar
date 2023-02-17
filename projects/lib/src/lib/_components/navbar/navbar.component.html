@@ -1,7 +1,11 @@
-<div class="navbar" fl-gooey>
+<div class="navbar" id="navbar">
     <ng-content select="fl-navbar-button"></ng-content>
     <ng-content select="fl-navbar-search"></ng-content>
     <ng-content select="fl-navbar-title"></ng-content>
 </div>
 
 <ng-content select="fl-navbar-menu"></ng-content>
+
+<div class="page-container" [ngClass]="navbar.menuExpanded ? 'disable-scroll' : ''">
+  <ng-content select="fl-page-content"></ng-content>
+</div>

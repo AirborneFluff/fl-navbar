@@ -5,11 +5,14 @@ import { Injectable } from '@angular/core';
 })
 export class NavbarService {
   private _menuExpanded = false;
+  navbarElement: any = undefined;
 
-  constructor() { }
+  constructor() {
+
+  }
 
   get menuExpanded() { return this._menuExpanded }
-  
+
   openMenu() {
     this._menuExpanded = true;
   }
