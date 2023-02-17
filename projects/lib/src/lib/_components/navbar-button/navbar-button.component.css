@@ -1,0 +1,9 @@
+.container {
+    padding: 1.6rem;
+    justify-self: center;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+  

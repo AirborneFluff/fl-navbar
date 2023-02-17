@@ -1,0 +1,9 @@
+<div class="search-container">
+    <input 
+        type="text"
+        class="search-field"
+        [placeholder]="searchPlaceholder"
+        [(ngModel)]="searchField"
+        (keydown)="onSearchKeyEvent($event)"
+        (change)="onSearchChangeEvent($event)">
+</div>

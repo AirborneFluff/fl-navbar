@@ -1,0 +1,14 @@
+.navbar {
+    box-sizing: border-box;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 6.4rem calc(100% - 6.4rem) 0px;
+    column-gap: 0.8rem;
+    padding: 1.2rem;
+    height: 8rem;
+    width: 100%;
+    background-color: #fff;
+    left: 0;
+
+    align-items: center;
+}

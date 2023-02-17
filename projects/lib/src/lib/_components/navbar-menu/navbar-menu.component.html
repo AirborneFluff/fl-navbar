@@ -1,0 +1,13 @@
+<div class="backdrop"
+    [ngClass]="navbar.menuExpanded ? 'visible' : 'backdrop-hidden'"
+    (click)="closeMenu()"></div>
+
+<div class="menu-container"
+    [ngClass]="navbar.menuExpanded ? 'visible' : ''">
+    <ng-content select="fl-menu-title"></ng-content>
+    <div class="menu-items">
+        <div class="menu-item">
+            <ng-content select="fl-menu-item"></ng-content>
+        </div>
+    </div>
+</div>

@@ -60,4 +60,4 @@ This will accept an SVG for an item icon and a Span for the item text
 
 ## Example of HTML Use
 
-See the demo project within this git repository
+See the demo project within the Github repository

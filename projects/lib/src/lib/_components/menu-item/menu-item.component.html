@@ -1,0 +1,8 @@
+<div class="container" (click)="onClickEvent()">
+    <div class="item-icon">
+        <ng-content select="svg"></ng-content>
+    </div>
+    <div class="item-text">
+        <ng-content select="span, p"></ng-content>
+    </div>
+</div>
