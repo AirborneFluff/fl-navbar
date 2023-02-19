@@ -16,7 +16,6 @@ export class PageContentComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     setTimeout(() => {
       this._navbarHeight = this.navbar.navbarElement.offsetHeight
-      console.log(`navbar height ${this._navbarHeight}`)
     })
   }
 
