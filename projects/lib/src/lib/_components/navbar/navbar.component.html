@@ -6,6 +6,6 @@
 
 <ng-content select="fl-navbar-menu"></ng-content>
 
-<div class="page-container" [ngClass]="navbar.menuExpanded ? 'disable-scroll' : ''">
+<div [ngClass]="navbar.menuExpanded ? 'disable-scroll' : ''">
   <ng-content select="fl-page-content"></ng-content>
 </div>

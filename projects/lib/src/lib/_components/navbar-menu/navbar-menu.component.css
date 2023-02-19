@@ -1,3 +1,8 @@
+:host {
+  position: fixed;
+  z-index: 1000;
+}
+
 .menu-container {
     position: fixed;
     background-color: #fff;
